@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  background-color:  LightCyan;
+  
+}
+
+.title {
+
+  color: black;
+  font-weight: 1000;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.search text {
+
+  margin-top: 20px;
+  display: contents; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input {
+
+  width: 200px;
+  height: 18px;
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 15px;
+  color:black;
+  margin: 15px;
+  border-style: solid;
+  text-align: center;
+}
+
+.search button {
+
+  width: 90px;
+  height: 25px;
+  border-radius: 10px !important;
+  padding: 0px;
+  font-weight: 500px;
+  font-size: 15px;
+  margin: 15px;
+  border-style: solid;
+  text-align: center;
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    align-items: flex-start;
+    
+ 
+}
+
+.dados{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cidade h1 {
+
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+   border-bottom: 1px solid Silver;
+    align-items: flex-start;
+
+}
+
+
+
+
+.pais h1 {
+
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+   border-bottom: 1px solid Silver;
+  align-items: flex-start;
+}
+
+
+
+.temp h1 {
+
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+   border-bottom: 1px solid Silver;
+}
+
+
+
+.umi h1 {
+
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+   border-bottom: 1px solid Silver;
+}
+
+
+
+.clima h1 {
+
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  border-bottom: 1px solid Silver;
+}
